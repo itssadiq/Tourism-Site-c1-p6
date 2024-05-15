@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #EAE8E3;
+    font-family: "Roboto Slab", serif;
+    color: black;
+}
+
+.hero {
+    background-image: url("images/main5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 10px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.hero-mainheading {
+    background-color: #19556c;
+    padding: 20px 25px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.hero-subheading {
+    background-color: #19556c;
+    padding: 15px 18px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.hero-mainheading:hover {
+    font-size: 26px;
+    transition: 0.5s ease-in-out;
+}
+
+.hero-subheading:hover {
+    font-size: 18px;
+    transition: 0.5s ease-in-out;
+}
+
+#place-section {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    height: 400px;
+    background-color: #EAE8E3;
+    padding: 10px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
+    font-weight: 200;
+    text-shadow: 0px 0px 1px black;
+}
+
+.place-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.card-desc {
+    width: 200px;
+}
+
+.desc {
+    width: 300px;
+}
+
+
+
+.mypicture {
+    width: 150px;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    margin: 0px auto 20px auto;
+    text-align: center;
+    color: white;
+    background-color: #07465e;
+    border-bottom: 5px solid #c58e35;
+    border-top: 5px solid #c58e35;
+}
+
+.content {
+    margin: auto 0;
+    font-size: 18px;
+}
+
+#mid-heading {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 25px;    
+    cursor: pointer;
+}
+
+#mid-heading:hover {
+    color: #19556c;
+    transition: 0.3s ease-in-out;
+}
